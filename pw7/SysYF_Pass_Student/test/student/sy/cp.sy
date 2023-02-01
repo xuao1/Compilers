@@ -1,0 +1,21 @@
+int i=10;
+int main()
+{
+    int j = i + 9;
+
+    int x = 14;
+    int y = 7 - x / 2;
+    int z = y * (28 / x + 2);
+
+    float a = 30;
+    int b = 9 - a / 5;
+    int c;
+    c = b * 4;
+    if (c > 10) {
+        c = c - 10;
+    }else{
+        c = 100;
+    }
+    int d = c * (60 / a);
+    return z + d + j;
+}

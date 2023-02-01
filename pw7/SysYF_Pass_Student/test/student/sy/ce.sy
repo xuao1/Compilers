@@ -1,0 +1,12 @@
+int main() {
+    int a=0, b=0, c, d, e=10;
+
+    while (a<114514){
+        b = b + 1;
+        c = e + 5;
+        d = e + 5; 
+        a = a + 1;
+    }
+    
+    return d + c;
+}

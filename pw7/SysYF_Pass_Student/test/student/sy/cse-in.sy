@@ -1,0 +1,11 @@
+int main()
+{
+	int a,b,c,d;
+	int e,f;
+	e=4;
+	f=4;
+	a=e*f;
+	c=e*f;
+	d=a+c;
+	return 0;
+}

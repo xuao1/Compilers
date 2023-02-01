@@ -1,0 +1,12 @@
+int main(){
+    int a=0, i=0, j=0;
+    while(i<100000){
+        a = a + 4*i + 3*j;
+        i = i + 1;
+        j = j + 2;
+        int b=4*a;
+        int d=0*b;
+        a = a + d;
+    }
+    return a;
+}

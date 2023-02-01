@@ -1,0 +1,27 @@
+int main()
+{
+	int a,b,c,d;
+	int a1,c1,d1;
+	int e,f;
+	int a2,b2,c2,d2;
+	int a3,b3,c3,d3;
+	e=4;
+	f=4;
+	a=e*f;
+	c=e*f;
+	a2=e*f;
+	b2=e*f;
+	c2=e*f;
+	d=a+c;
+	d2=a2+c2+b2;
+	if(d==4){
+		a1=e*f;
+		c1=e*f;
+		a3=e*f;
+		b3=e*f;
+		c3=e*f;
+		d3=a3+c3+b3;
+		d1=a1+c1;
+	}
+	return 0;
+}
